@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1e1f23;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  height: 10vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .nav-elements {
+  height: 60px;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #333333;
+  border-radius: 25px;
+}
+
+nav .nav-elements .nav-item {
+  height: 40px;
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  border-radius: 25px;
+  color: #6a6a6a;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition-property: background-color color;
+  transition-property: background-color color;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+nav .nav-elements .nav-item i {
+  margin-right: 6px;
+}
+
+nav .nav-elements .nav-item:hover {
+  background-color: #1e1f23;
+  color: #cff;
+}
+
+nav .nav-elements .nav-item-active {
+  background-color: #1e1f23;
+  color: #cff;
+}
+
+.form {
+  width: 100vw;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form form {
+  width: 500px;
+  height: 550px;
+  background-color: #333333;
+  border-radius: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #cff;
+}
+
+.form form .logo {
+  text-align: center;
+}
+
+.form form .logo i {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+.form form .logo p {
+  font-size: 20px;
+  margin: 0 10px 40px 10px;
+}
+
+.form form .logo .error {
+  color: tomato;
+  font-weight: bold;
+}
+
+.form form .div-input {
+  width: 90%;
+  height: 40px;
+  margin: 0px 5% 25px 5%;
+  background: none;
+  border-bottom: 3px solid #6a6a6a;
+  color: #cff;
+  font-size: 20px;
+}
+
+.form form .div-input i {
+  margin-left: 5px;
+}
+
+.form form .div-input input {
+  width: 90%;
+  height: 100%;
+  margin-left: 10px;
+  background: none;
+  border: none;
+  outline: none;
+  color: #cff;
+  font-size: 15px;
+}
+
+.form form .div-textarea {
+  width: 90%;
+  height: 100px;
+  margin: 0px 5% 25px 5%;
+  background: none;
+  color: #cff;
+  font-size: 20px;
+}
+
+.form form .div-textarea textarea {
+  width: 100%;
+  height: 100%;
+  color: #cff;
+  font-family: 'Roboto', sans-serif;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #6a6a6a;
+  outline: none;
+}
+
+.form form button {
+  width: 90%;
+  height: 50px;
+  margin: 0 5% 25px 5%;
+  border: none;
+  border-radius: 5px;
+  background-color: #34b45e;
+  color: #cff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form form .form-ref {
+  width: 90%;
+  margin: 10px 5% 0 5%;
+}
+
+.form form .form-ref .ref-left {
+  float: left;
+  color: #34b45e;
+}
+
+.form form .form-ref .ref-right {
+  float: right;
+  color: #34b45e;
+}
+
+main {
+  font-family: 'Roboto', sans-serif;
+  width: 100vw;
+}
+
+main .info {
+  width: 20%;
+  height: 50px;
+  margin: 50px 40% 0 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #333333;
+  color: #cff;
+  border-radius: 25px;
+}
+
+main .info .error {
+  color: tomato;
+  font-weight: bold;
+}
+
+main .tasks {
+  width: 40%;
+  height: 400px;
+  margin: 25px 30% 25px 30%;
+  display: block;
+  background-color: #333333;
+  border-radius: 50px;
+}
+
+main .tasks .green {
+  color: #34b45e;
+}
+
+main .tasks .yellow {
+  color: #ead37e;
+}
+
+main .tasks .red {
+  color: tomato;
+}
+
+main .tasks .title {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .tasks .title h2 {
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+main .tasks .description {
+  width: 100%;
+  height: 65%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .tasks .description p {
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+main .tasks .buttons {
+  width: 100%;
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .tasks .buttons div {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .tasks .buttons div a {
+  text-decoration: none;
+  color: #cff;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+main .tasks .buttons div .done {
+  background-color: #34b45e;
+}
+
+main .tasks .buttons div .in-progres {
+  background-color: #ead37e;
+}
+
+main .tasks .buttons div .cancel {
+  background-color: tomato;
+}
+/*# sourceMappingURL=style.css.map */
